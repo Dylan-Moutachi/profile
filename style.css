@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+/* * {
+  border: dashed red 1px;
+} */
+
+ /* @media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  /* .container {
+    width: 700px;
+  } */
+
+/* @media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  /* .container {
+    width: 500px;
+  }
+} */
+
+ @media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+    .container {
+    width: 300px;
+  }
+}
+
+body {
+  text-align: center;
+  background-color: #333344;
+  color: #FDFDFD;
+  font-family: poppins;
+  font-size: 13px;
+  line-height: normal;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px black;
+}
+
+#header {
+  /* background-image: url("https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/353433723_3523603731245054_3892872339847358330_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JpEVcANHoSMQ7kNvgFHrHB9&_nc_ht=scontent-cdg4-1.xx&cb_e2o_trans=t&oh=00_AfARMHCiGv2sLh01IOs7Kr1oyd9ECU1ewD0t-E8oNmflTw&oe=663EBEFA"); */
+  text-align: center;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: bebas neue;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: bebas neue;
+  font-size: 20px;
+}
+
+.box {
+  box-shadow: 0px 10px 20px black;
+  margin: 30px 30px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: black;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ded869;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin-right: 40px;
+}
+
+i {
+  font-size: 25px;
+}
+
+i:hover {
+  color: #4444FF;
+}
+
+.first {
+  animation: move 2s ease-in-out infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.second {
+  animation: move 2s 1s ease-in-out infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
